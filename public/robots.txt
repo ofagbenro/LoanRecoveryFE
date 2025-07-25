@@ -1,0 +1,19 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+# Disallow access to private application areas
+Disallow: /admin
+Disallow: /api
+Disallow: /dashboard
+Disallow: /login
+Disallow: /loans
+Disallow: /customers
+
+# Allow access to public assets
+Allow: /static/
+Allow: /manifest.json
+Allow: /favicon.ico
+Allow: /logo*.png
+
+# Sitemap location (when available)
+# Sitemap: https://your-domain.com/sitemap.xml
